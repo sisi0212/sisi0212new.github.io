@@ -1,0 +1,375 @@
+@charset "UTF-8";
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+
+}
+
+                                                                /* MENU */ 
+
+header {
+    background:  rgb(9, 107, 199);
+    height: 66px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header * { 
+    color: white;
+}
+/* mean that all of the element in header have white color */
+
+
+header .logo {
+    float: left;
+    padding-left: 17%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    float: right;
+    padding-right: 290px;
+}
+
+header ul li {
+    float: left;
+    list-style: none; /* delete the dots before the lists */
+}
+
+header ul li a {
+    display: block;
+    padding: 11px;
+    font-size: 15px;
+    text-decoration: none; /* delete the underline */
+}
+
+header .menu-toggle {
+    display: none;
+}
+
+.nav i {
+    font-size: 13px;
+    padding-top: 12px;
+}
+
+                                                                 /* HOME IMAGE */
+.homeimage {
+    background-image: url(https://i.imgur.com/z7MBEsN.jpg);
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+                                                                /* ABOUT US */
+
+.abcolumn {
+    float: left;
+    width: 50%;
+}
+
+#aboutus::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#aboutus {
+    margin: 2% 17% 0% 17%;
+}
+
+.ab1 {
+    margin-right: 4%;
+}
+.abimage {
+    background-image: url(https://i.imgur.com/RsFGT4B.jpg);
+    height: 400px;
+    width: 100%;
+    background-position: center;
+}
+
+.abtitle {
+    font-size: 15px;
+}
+.abtitle:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(60, 140, 231);
+    float: left;
+    margin: 8px 7px 0px 0px;
+}
+
+                                                               /* EDUCATION */
+.edu1 {
+    background-image: url(https://i.imgur.com/5AVVaKY.jpg);
+    height: 470px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.edu2 {
+    background-image: url(https://i.imgur.com/YE6srBq.jpg);
+    height: 470px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.educolumn {
+    float: left;
+    width: 50%;
+}
+
+#education:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-left {
+    position: absolute;
+    top: 22px;
+    left: 800px;
+  }
+
+#education {
+    margin-top: 75px;
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: small;
+}
+
+.bustitle:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 7px 0px 0px;
+    float: left;
+}
+
+.educon img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    position: absolute;
+    left: -60px;
+}
+
+.buscon img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    position: absolute;
+    left: -60px;
+}
+                                                               /*NEWS */
+
+.newcolumn {
+    float: left;
+    width: 33.33%;
+} 
+
+#news::after {
+    content: "";
+    display: table;
+    clear: both;
+}  /* Clear floats after columns */
+
+#news {
+    margin: 5% 17% 0% 17%;
+    font-size: medium;
+}
+
+.newim1 {
+    background-image: url(https://i.imgur.com/9oymWKS.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.newim2 {
+    background-image: url(https://i.imgur.com/N9c8DaB.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.newim3 {
+    background-image: url(https://i.imgur.com/jmrZrhu.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.newco1 {
+    border: 1px solid gray;
+    margin-right: 4%;
+}
+
+.newco2 {
+    border: 1px solid gray;
+    margin-right: 4%;
+}
+
+.newco3 {
+    border: 1px solid gray;
+}
+
+#news a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+#news h3 {
+    padding: 5px;
+}
+
+#news p {
+    padding: 5px;
+}
+
+.newtitle:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(60, 140, 231);
+    float: left;
+    margin: 12px 7px 0px 0px;
+}
+                                                                /* CONTACT US */
+.contactcolumn {
+    float: left;
+    width: 50%;
+}
+
+#contactus:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#contactus {
+    margin: 5% 17% 0% 17%;
+}
+
+.contactim {
+    background-image: url(https://i.imgur.com/o9NCdFV.png);
+    height: 150px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.info input{
+    width: 150px;
+    height: 32px;
+    margin-bottom: 15px;
+    border-color: 1px solid gray;
+}
+
+.mess input {
+    width: 475px;
+    height: 160px;
+}
+
+.contacttitle:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(60, 140, 231);
+    float: left;
+    margin: 8px 7px 0px 0px;
+}
+
+.sendmess button {
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    margin: 250px 0px 0px -100px;
+    height: 50px;
+    width: 170px;
+    font-size: large;
+}
+
+                                                                /* FOOTER */
+.contentcolumn {
+    float: left;
+    width: 25%;
+}
+
+#content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#content {
+    margin: 0% 17% 0% 17%;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    font-size: small;
+}
+
+.contentcolumn input {
+    background: black;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+}
+
+.contentcolumn ul {
+    padding-inline-start: 0px;
+}
+
+.contentcolumn ul li {
+    list-style: none;
+}
+
+.contentcolumn ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer hr {
+    height:1px;
+    border-width:0;
+    color:white;
+    background-color:white;
+}
+
+.contentcolumn i{
+    float: left;
+    margin-right: 10px;
+}
+
